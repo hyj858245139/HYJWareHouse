@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYJWareHouse'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Code WareHouse.'
 
 # This description is used to generate tags and improve search results.
@@ -29,9 +29,6 @@ A Code WareHouse.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'HYJWareHouse/Classes/*'
-  s.public_header_files = 'HYJWareHouse/Classes/*.h'
 
   s.subspec 'testModel' do |sp|
       sp.source_files = 'HYJWareHouse/Classes/testModel/*.{h,m}'

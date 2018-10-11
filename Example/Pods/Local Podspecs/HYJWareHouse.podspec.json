@@ -1,6 +1,6 @@
 {
   "name": "HYJWareHouse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Code WareHouse.",
   "description": "A Code WareHouse.",
   "homepage": "https://github.com/hyj858245139/HYJWareHouse",
@@ -13,11 +13,13 @@
   },
   "source": {
     "git": "https://github.com/hyj858245139/HYJWareHouse.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": "HYJWareHouse/Classes/*",
+  "public_header_files": "HYJWareHouse/Classes/*.h",
   "subspecs": [
     {
       "name": "testModel",
