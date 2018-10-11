@@ -1,0 +1,6 @@
+framework module HYJWareHouse {
+  umbrella header "HYJWareHouse-umbrella.h"
+
+  export *
+  module * { export * }
+}

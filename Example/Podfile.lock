@@ -1,0 +1,29 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HYJWareHouse (0.1.0):
+    - HYJWareHouse/testModel (= 0.1.0)
+  - HYJWareHouse/testModel (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HYJWareHouse (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HYJWareHouse:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HYJWareHouse: 22aad255cb76120216790a8f5aff112d17fb7ff9
+
+PODFILE CHECKSUM: c969ec9d10f4a230b720d9b2b8747edec88532c3
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,28 @@
+{
+  "name": "HYJWareHouse",
+  "version": "0.1.0",
+  "summary": "Code WareHouse.",
+  "description": "A Code WareHouse.",
+  "homepage": "https://github.com/hyj858245139/HYJWareHouse",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hyj": "858245139@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hyj858245139/HYJWareHouse.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "testModel",
+      "source_files": "HYJWareHouse/Classes/testModel/*.{h,m}",
+      "public_header_files": "HYJWareHouse/Classes/testModel/*.h"
+    }
+  ]
+}
