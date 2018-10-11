@@ -30,6 +30,9 @@ A Code WareHouse.
 
   s.ios.deployment_target = '8.0'
 
+  s.source_files = 'HYJWareHouse/Classes/*'
+  s.public_header_files = 'HYJWareHouse/Classes/*.h'
+
   s.subspec 'testModel' do |sp|
       sp.source_files = 'HYJWareHouse/Classes/testModel/*.{h,m}'
       sp.public_header_files = 'HYJWareHouse/Classes/testModel/*.h'
